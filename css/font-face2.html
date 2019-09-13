@@ -2,12 +2,15 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <title>Connecting fonts</title>
+    <title>Connecting fonts< 2</title>
       <style type="text/css">
-@font-face{
-  font-family:'ChunkFiveRegular';
-  src: url('fonts/ChunkFive-Regular.otf');
-}
+      @font-face {
+          font-family: 'chunkfiveregular';
+          src: url('fonts/chunkfive-regular-webfont.woff2') format('woff2'),
+               url('fonts/chunkfive-regular-webfont.woff') format('woff');
+          font-weight: normal;
+          font-style: normal;
+      }
 h1,h2{
   font-family:ChunkFiveRegular, Georgia, serif;
 }
